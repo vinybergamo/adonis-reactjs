@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-  entry: "./resources/js/app.js",
+  entry: "./resources/React/app.js",
   output: {
     path: path.resolve(__dirname, "public/dist/"),
     filename: "app.js",
@@ -19,6 +19,6 @@ module.exports = {
         },
       },
     ],
-    },
+  },
   mode: "development",
 };
